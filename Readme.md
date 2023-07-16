@@ -19,26 +19,6 @@
 
 
 
-## Introduction
-
-* A backend project which includes specific routes in the URL .
-* User can  do the following as below:
-    - *access the number of subscribers*, 
-    - *access subscribers by specific IDs and names*, 
-    - *add subscribers*, &
-    - *delete subscibers*
-
-## Used in this project:
-
-* Mongoose
-* Express
-* MongoDB (Atlas and Compass)
-* Raw data
-* Path module to join index.html
-* Postman 
-* nodemon
-* dotenv 
-
 
 ## Introduction
 

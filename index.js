@@ -9,10 +9,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: false }));
 
 // Connect to DATABASE
-// const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers";
+const DATABASE_URL = "mongodb://127.0.0.1:27017/subscribers";
 
 //Connect to Cloud DATABASE (MongoDB Atlas Database) 
-const DATABASE_URL = process.env.MONGODB_URI
+// const DATABASE_URL = process.env.MONGODB_URI
 
 mongoose.connect(DATABASE_URL,{ useNewUrlParser: true, useUnifiedTopology: true });
 const db = mongoose.connection
